@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1100" viewBox="0 0 1440 1100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef6ff"/><stop offset="0.45" stop-color="#ffffff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="heroBook1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#1e40af"/></linearGradient>
+    <linearGradient id="heroBook2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#16a34a"/><stop offset="1" stop-color="#166534"/></linearGradient>
+    <linearGradient id="heroBook3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f59e0b"/><stop offset="1" stop-color="#b45309"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0f172a" flood-opacity="0.14"/></filter>
+    <style>
+      .title{font:800 58px Inter,Arial,sans-serif;fill:#0f172a}.h2{font:800 34px Inter,Arial,sans-serif;fill:#0f172a}.body{font:400 22px Inter,Arial,sans-serif;fill:#64748b}.small{font:700 16px Inter,Arial,sans-serif;fill:#64748b}.nav{font:800 20px Inter,Arial,sans-serif;fill:#fff}.navlink{font:600 15px Inter,Arial,sans-serif;fill:#dbeafe}.btn{font:900 17px Inter,Arial,sans-serif}.cardTitle{font:800 22px Inter,Arial,sans-serif;fill:#0f172a}.cardText{font:400 15px Inter,Arial,sans-serif;fill:#64748b}.white{fill:#fff}.mutedWhite{fill:#dbeafe}.gold{fill:#f59e0b}
+    </style>
+  </defs>
+  <rect width="1440" height="1100" fill="url(#bg)"/>
+
+  <rect width="1440" height="74" fill="#071633"/>
+  <rect x="130" y="16" width="42" height="42" rx="14" fill="#f59e0b"/>
+  <text x="151" y="44" text-anchor="middle" font-size="24">📚</text>
+  <text x="186" y="31" class="nav">Class 9 AI Study Hub</text>
+  <text x="186" y="53" font="600 12px Inter,Arial" fill="#bfdbfe">Peshawar Textbook Board</text>
+  <text x="870" y="45" class="navlink">Subjects</text>
+  <text x="970" y="45" class="navlink">Books</text>
+  <text x="1050" y="45" class="navlink">Notes</text>
+  <text x="1130" y="45" class="navlink">AI Agent</text>
+
+  <g transform="translate(130 150)">
+    <rect x="0" y="0" width="300" height="40" rx="20" fill="#dbeafe" stroke="#bfdbfe"/>
+    <text x="22" y="26" font="800 15px Inter,Arial" fill="#1d4ed8">✨ Personal AI Agent for 9th Class</text>
+    <text x="0" y="110" class="title">Read books, study</text>
+    <text x="0" y="178" class="title">notes, and ask topic</text>
+    <text x="0" y="246" class="title">questions in one place.</text>
+    <text x="0" y="305" class="body">A professional learning website concept for Class 9</text>
+    <text x="0" y="338" class="body">students following the Peshawar / KP textbook style.</text>
+    <rect x="0" y="385" width="180" height="56" rx="14" fill="#2563eb"/>
+    <text x="90" y="420" text-anchor="middle" class="btn white">Ask AI Agent</text>
+    <rect x="198" y="385" width="150" height="56" rx="14" fill="#fff" stroke="#e2e8f0"/>
+    <text x="273" y="420" text-anchor="middle" class="btn" fill="#071633">View Books</text>
+  </g>
+
+  <g transform="translate(890 135)" filter="url(#shadow)">
+    <rect width="420" height="335" rx="28" fill="#fff" stroke="#e2e8f0"/>
+    <rect x="28" y="32" width="364" height="58" rx="18" fill="url(#heroBook1)"/><text x="58" y="68" class="nav">Biology</text><text x="330" y="68" class="navlink">Class 9</text>
+    <rect x="28" y="106" width="364" height="58" rx="18" fill="url(#heroBook2)"/><text x="58" y="142" class="nav">Physics</text><text x="318" y="142" class="navlink">Concepts</text>
+    <rect x="28" y="180" width="364" height="58" rx="18" fill="url(#heroBook3)"/><text x="58" y="216" class="nav">Chemistry</text><text x="330" y="216" class="navlink">Notes</text>
+    <rect x="28" y="254" width="364" height="58" rx="18" fill="#6d28d9"/><text x="58" y="290" class="nav">Maths</text><text x="315" y="290" class="navlink">Practice</text>
+  </g>
+
+  <text x="130" y="590" class="h2">All Subjects Available</text>
+  <text x="130" y="625" class="small">Books, notes, chapter summaries, MCQs, short questions, and long questions.</text>
+  <g transform="translate(130 665)">
+    <g><rect width="260" height="135" rx="22" fill="#fff" stroke="#e2e8f0"/><text x="24" y="48" font-size="28">🔤</text><text x="24" y="83" class="cardTitle">English</text><text x="24" y="111" class="cardText">Book, notes, MCQs</text></g>
+    <g transform="translate(285 0)"><rect width="260" height="135" rx="22" fill="#fff" stroke="#e2e8f0"/><text x="24" y="48" font-size="28">➗</text><text x="24" y="83" class="cardTitle">Mathematics</text><text x="24" y="111" class="cardText">Practice and formulas</text></g>
+    <g transform="translate(570 0)"><rect width="260" height="135" rx="22" fill="#fff" stroke="#e2e8f0"/><text x="24" y="48" font-size="28">⚡</text><text x="24" y="83" class="cardTitle">Physics</text><text x="24" y="111" class="cardText">Concepts and numericals</text></g>
+    <g transform="translate(855 0)"><rect width="260" height="135" rx="22" fill="#fff" stroke="#e2e8f0"/><text x="24" y="48" font-size="28">🧬</text><text x="24" y="83" class="cardTitle">Biology</text><text x="24" y="111" class="cardText">Diagrams and topics</text></g>
+  </g>
+
+  <text x="130" y="875" class="h2">Topic Question AI Agent</text>
+  <g transform="translate(130 915)">
+    <rect width="535" height="145" rx="24" fill="#fff" stroke="#e2e8f0"/>
+    <text x="28" y="42" class="cardTitle">What the agent can do</text>
+    <text x="28" y="76" class="cardText">• Explain difficult Class 9 topics in simple words.</text>
+    <text x="28" y="103" class="cardText">• Create short notes and exam questions.</text>
+    <text x="28" y="130" class="cardText">• Suggest chapter-wise study plans.</text>
+    <rect x="590" y="0" width="590" height="145" rx="24" fill="#0f172a"/>
+    <rect x="615" y="25" width="390" height="46" rx="16" fill="#1e293b"/>
+    <text x="635" y="54" font="400 15px Inter,Arial" fill="#e2e8f0">Assalamualaikum! Ask me about any Class 9 topic.</text>
+    <rect x="615" y="89" width="430" height="38" rx="14" fill="#020617" stroke="#334155"/>
+    <text x="635" y="114" font="400 14px Inter,Arial" fill="#94a3b8">Ask about Biology, Physics, Chemistry, Maths...</text>
+    <rect x="1060" y="89" width="90" height="38" rx="14" fill="#f59e0b"/>
+    <text x="1105" y="114" text-anchor="middle" font="900 14px Inter,Arial" fill="#0f172a">Send</text>
+  </g>
+</svg>
